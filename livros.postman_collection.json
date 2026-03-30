@@ -1,0 +1,45 @@
+{
+    "info": {
+      "name": "API Livros",
+      "_postman_id": "12345",
+      "description": "Testes CRUD de livros",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "GET Livros",
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:3000/livros"
+        }
+      },
+      {
+        "name": "POST Livro",
+        "request": {
+          "method": "POST",
+          "header": [
+            { "key": "Content-Type", "value": "application/json" }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{ \"titulo\": \"Livro Teste\", \"autor\": \"Autor\", \"ano\": 2020, \"genero\": \"Drama\" }"
+          },
+          "url": "http://localhost:3000/livros"
+        }
+      },
+      {
+        "name": "PUT Livro",
+        "request": {
+          "method": "PUT",
+          "url": "http://localhost:3000/livros/ID_AQUI"
+        }
+      },
+      {
+        "name": "DELETE Livro",
+        "request": {
+          "method": "DELETE",
+          "url": "http://localhost:3000/livros/ID_AQUI"
+        }
+      }
+    ]
+  }
