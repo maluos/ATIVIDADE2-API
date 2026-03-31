@@ -32,3 +32,6 @@ LISTAR LIVROS - GET
 
 ATUALIZAR LIVROS - PUT 
 <img width="878" height="546" alt="Image" src="https://github.com/user-attachments/assets/c841486c-a35c-4e5c-9da8-ff8d1b566f32" />
+
+DELETAR LIVROS - DELETE 
+<img width="878" height="214" alt="Image" src="https://github.com/user-attachments/assets/856d37dc-9cf3-4ab0-8923-699da1752da8" />
