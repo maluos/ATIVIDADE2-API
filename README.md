@@ -29,3 +29,6 @@ Deve conter: Código + README + Collection Postman
 
 LISTAR LIVROS - GET 
 <img width="878" height="322" alt="Image" src="https://github.com/user-attachments/assets/02ecf75f-bfa4-4f7a-a339-5e21ec6a4644" />
+
+ATUALIZAR LIVROS - PUT 
+<img width="878" height="546" alt="Image" src="https://github.com/user-attachments/assets/c841486c-a35c-4e5c-9da8-ff8d1b566f32" />
