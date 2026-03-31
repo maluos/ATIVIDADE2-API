@@ -1,22 +1,10 @@
-const mongoose = require('mongoose')
+const express = require('express')
+const router = express.Router()
+const controller = require('../controllers/livrosController')
 
-const LivroSchema = new mongoose.Schema({
-  titulo: {
-    type: String,
-    required: true
-  },
-  autor: {
-    type: String,
-    required: true
-  },
-  ano: {
-    type: Number,
-    required: true
-  },
-  genero: {
-    type: String,
-    required: true
-  }
-}, { timestamps: true })
+router.get('/', controller.getLivros)
+router.post('/', controller.createLivro)
+router.put('/:id', controller.updateLivro)
+router.delete('/:id', controller.deleteLivro)
 
-module.exports = mongoose.model('Livro', LivroSchema)
+module.exports = router
