@@ -30,6 +30,9 @@ Deve conter: Código + README + Collection Postman
 SERVIDOR RODANDO 
 <img width="414" height="172" alt="Image" src="https://github.com/user-attachments/assets/2976e0c9-c6fd-4a33-a7a8-75d6a69273f7" />
 
+CRIAR 10 LIVROS - POST 
+<img width="878" height="554" alt="Image" src="https://github.com/user-attachments/assets/dd9a3db6-855c-4553-a8f7-423d845faaf2" />
+
 LISTAR LIVROS - GET 
 <img width="878" height="322" alt="Image" src="https://github.com/user-attachments/assets/02ecf75f-bfa4-4f7a-a339-5e21ec6a4644" />
 
