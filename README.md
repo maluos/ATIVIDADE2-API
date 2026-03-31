@@ -25,3 +25,7 @@ Criar uma API REST completa de um tema à sua escolha:
 Prazo: Segunda, 09/03/2026
 Formato: Link do repositório Git
 Deve conter: Código + README + Collection Postman
+
+
+LISTAR LIVROS - GET 
+<img width="878" height="322" alt="Image" src="https://github.com/user-attachments/assets/02ecf75f-bfa4-4f7a-a339-5e21ec6a4644" />
